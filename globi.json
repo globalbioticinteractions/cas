@@ -1,5 +1,7 @@
 {
-  "format": "dwca",
-  "citation": "California Academy of Sciences Entomology",
-  "url": "http://ipt.calacademy.org:8080/archive.do?r=ent"
+  "format": "rss",
+  "citation": "California Academy of Sciences Entomology and Entomology Type Collection",
+  "url": "http://ipt.calacademy.org:8080/rss.do",
+  "include": ".*(CAS Entomology).*",
+  "shouldResolveReferences": false
 }
